@@ -1,5 +1,9 @@
+:root {
+    --font-color:steelblue;
+    --other-color:gray;
+}
 nav {
-    background-color: steelblue;
+    background-color: var(--font-color);
     padding: 10px;
 }
 nav a {
@@ -8,14 +12,14 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: var(--font-color);
 }
 img {
     width: 300px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--font-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--other-color);
 }
 p {
     padding: 0;
