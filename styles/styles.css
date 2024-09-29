@@ -33,6 +33,7 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -56,6 +57,12 @@ footer {
     border-top: 1px solid blue;
     text-align: center;
 }
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+/*class selector*/
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
@@ -63,9 +70,3 @@ footer {
     background-color: #ddd;
     color: #000;
 }
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-/*class selector*/
