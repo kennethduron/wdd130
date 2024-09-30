@@ -51,6 +51,7 @@ main img {
     width: 150px;
     height: auto;
     float: right;
+    margin: 20px;
 }
 footer {
     margin-top: 15px;
@@ -62,7 +63,7 @@ aside h2 {
     top: 47px;
     left: 150px;
 }
-/* Class Selectors */
+/* Class Selectors*/
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
