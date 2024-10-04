@@ -1,0 +1,115 @@
+:root {
+--primary-color:aqua ;
+--secondary-color:white ;
+--accent1-color: blue;
+--accent2-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a {
+    text-decoration: none;
+    border: white;
+    background-color: aquamarine;
+    padding: 10px;
+    color:var(--accent1-color);
+    border: solid var(--accent2-color);
+    padding-inline: 50px;
+    float: right;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 20px;
+    align-items: center;
+}
+main {
+    background-image: url(/wwr/images/Water.jpeg);
+    color: var(--secondary-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+main img {
+    width: 200px;
+    height: 200px;
+}
+main div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    margin: 20px;
+    padding: 20px;
+}
+main div p {
+    color: black;
+    background-color: white;
+    padding: 80px;
+    text-align: center;
+}
+main h1 {
+    color: black;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+}
+section {
+    background-color: aqua;
+    text-align:center;
+}
+section h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+section p {
+    padding-bottom: 90px;
+}
+#ultimate {
+    background-color: aqua;
+    margin: 20px;
+    text-align: center;
+}
+#ultimate, h3 {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+#ultimate, section p {
+    padding-bottom: 50px;
+}
+footer {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+footer div {
+    display: flex;
+    margin-left: auto;  
+}
+
+footer div a img{
+    width: 50px;
+    height: auto;
+    display: flex;
+    padding: 5px;
+    
+}
+footer p {
+    display: flex;
+    margin: 0 auto;
+}
+#social-images {
+    position: absolute;
+    width: 0 -40px;
+}
