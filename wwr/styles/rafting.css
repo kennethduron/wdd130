@@ -112,3 +112,8 @@ footer p {
 #social-images {
     position: absolute;
 }
+.ultimate, img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+}
