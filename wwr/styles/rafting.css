@@ -98,7 +98,7 @@ footer div {
     margin-left: auto;  
 }
 
-footer div a img{
+footer div a img {
     width: 50px;
     height: auto;
     display: flex;
@@ -112,7 +112,7 @@ footer p {
 #social-images {
     position: absolute;
 }
-.ultimate, img {
+.ultimate, img  {
     width: 280px;
     height: auto;
     border-radius: 10px;
