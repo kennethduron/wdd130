@@ -28,7 +28,7 @@ header {
     align-items: center;
 }
 main {
-    background-image: url(../images/Water.jpeg);
+    background-image: url(../images/water.jpg);
     color: var(--secondary-color);
     background-repeat: no-repeat;
     background-size: cover;
