@@ -86,7 +86,7 @@ section p {
 #ultimate, section p {
     padding-bottom: 50px;
 }
-footer {
+footer figure {
     background-color: aqua;
     display: flex;
     justify-content: space-between;
