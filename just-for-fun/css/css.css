@@ -1,0 +1,12 @@
+main p {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 80px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: red;
+    font-weight: bold;
+    padding: 10px;
+
+}
