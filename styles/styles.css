@@ -13,7 +13,7 @@ nav a {
     text-decoration: none;
     display: block;
     font-size: 1.2rem;
-    font font-weight: 700;
+    font font-weight: 700px;
 }
 nav {
     display: flex;
