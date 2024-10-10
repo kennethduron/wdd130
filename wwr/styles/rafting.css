@@ -113,13 +113,18 @@ footer p {
 #social-images {
     position: absolute;
 }
-.ultimate, img  {
+.ultimate, img {
     width: 280px;
     height: auto;
     border-radius: 10px;
+
 }
 figure {
     display: flex;
     justify-content: space-around;
-    padding: 15px;
+    padding: 5px;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
 }
