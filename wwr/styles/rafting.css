@@ -72,7 +72,7 @@ section h2 {
     padding-top: 15px;
 }
 section p {
-    padding-bottom: 90px;
+    padding: 10px;
 }
 #ultimate {
     background-color: aqua;
@@ -117,4 +117,9 @@ footer p {
     width: 280px;
     height: auto;
     border-radius: 10px;
+}
+.center {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
 }
