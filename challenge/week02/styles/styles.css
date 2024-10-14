@@ -1,0 +1,19 @@
+nav {
+    background-color: lightgreen;
+    padding: 15px;
+}
+h1 {
+color: steelblue;
+padding: 20px;
+}
+img {
+    width: 200px;
+    height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px lightgreen;
+
+}
+p {
+    padding: 5px;
+    color: beige;
+}
