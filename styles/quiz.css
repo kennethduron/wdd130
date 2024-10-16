@@ -46,3 +46,6 @@ header {
     padding: 15px;
     padding-top: 5rem;
 }
+button:hover {
+    background-color: darkgreen;
+}
