@@ -49,3 +49,7 @@ header {
 button:hover {
     background-color: darkgreen;
 }
+input, select, textarea {
+    padding: 0.2rem;
+    font-size: 1rem;
+}
