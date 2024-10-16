@@ -38,20 +38,22 @@ div {
 .container2 {
 	/* write declarations here */
  display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+ flex-wrap: wrap;
+ justify-content: space-around;
 }
 
 .two {
 	background-color: #ace;
 	height: 100px;
+	width: auto;
+	padding-top: 40px;
 }
 
 .container3 {
-	padding: 0;
 	/* write declarations here */
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+justify-content: 1fr 1fr 1fr;
+padding: 0px;
 }
 
 .columns-3 {
@@ -62,4 +64,6 @@ div {
 .three {
 	margin: .25rem;
 	background-color: #abd;
+	text-align: center;
+	
 }

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(229, 225, 238);
+}
+fieldset {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 100px;
+    width: 0;    
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);    
+    border-style: none;
+}
+h2 {
+    background-color: white;
+    
+}
+form {
+    background-color: white;
+}
+input {
+    background-color: white;
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+}
+label {
+    background-color: white;
+}
+textarea {
+    background-color: white;
+    height: 150px;
+    width: 450px;
+    border-radius: 5px;
+
+}
+button {
+    background-color: white;
+    background-color: green;
+    padding: 5px;
+    color: white;
+    width: 450px;
+    border-radius: 5px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

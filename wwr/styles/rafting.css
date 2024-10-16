@@ -82,6 +82,7 @@ section p {
 #ultimate, h2 {
     padding-top: 15px;
     padding-bottom: 50px;
+    font-style: italic; 
 }
 #ultimate, section p {
     padding-bottom: 50px;
