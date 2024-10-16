@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+form {
+    background-color: rgb(242, 232, 232);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(157, 145, 145);
+}
+fieldset {
+    border-style: none;
+
+}
+input {
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+}
+textarea {
+    border-radius: 5px;
+    height: 150px;
+    width: 500px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: rgb(104, 104, 198);
+    color: white;
+    padding: 10px;
+   border-radius: 5px;
+   width: 500px;
+   font-size: 20px;
+}
+select {
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+}
+header {
+    padding: 15px;
+    padding-top: 5rem;
+}
