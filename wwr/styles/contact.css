@@ -105,6 +105,7 @@ button:hover{
 iframe {
     height: 400px;
     width: 1519px;
+    border:0;
 }
 input[type="checkbox"] {
     width: 22px;
