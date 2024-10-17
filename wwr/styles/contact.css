@@ -141,6 +141,7 @@ main p {
     width: 150px;
     height: auto;
     border-radius: 100px;
+    border: 1px solid yellowgreen;
 }   
 main {
     padding: 25px;
