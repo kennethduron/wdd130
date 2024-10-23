@@ -139,3 +139,6 @@ section {
     background-size: cover;
 }
    
+#table {
+    background-image: url(../images/water1.webp);
+}
