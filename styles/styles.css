@@ -62,3 +62,9 @@ footer {
 footer {
     margin-top: 10px;
 }
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
