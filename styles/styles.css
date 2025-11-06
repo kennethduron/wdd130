@@ -58,3 +58,7 @@ footer {
     border-top: 1px solid blue;
     text-align: center;
 }
+
+footer {
+    margin-top: 10px;
+}
