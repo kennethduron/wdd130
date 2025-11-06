@@ -40,11 +40,19 @@ header, main, aside, footer {
     max-width: 850px;
     margin: 0 auto;
 }
+
+main {
+    max-width: 100%;
+}
+
 main img {
     width: 150px;
     height: auto;
     float: right;
     margin: 20px;
+    border: black 1px solid;
+    padding: 3px;
+    box-shadow: 0px 5px 0px 5px rgba(0, 0, 0, 0.8);
 }
 footer {
     border-top: 1px solid blue;
