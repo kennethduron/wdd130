@@ -79,3 +79,8 @@ aside img {
     width: 200px;
     height: auto;
 }
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
