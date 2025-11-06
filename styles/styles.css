@@ -74,3 +74,8 @@ aside {
     background-color: white;
     color: white;
 }
+
+aside img {
+    width: 200px;
+    height: auto;
+}
