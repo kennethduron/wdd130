@@ -1,0 +1,49 @@
+
+:root {
+    --font-color:steelblue;
+    --other-color:gray;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a {
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+nav {
+    display: flex;
+    padding: 1rem;
+    background-color: var(--font-color);
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1 {
+    color: var(--font-color);
+}
+img {
+    width: 300px;
+    height: auto;
+    border: 1px solid var(--font-color);
+    padding: 2px;
+    box-shadow: 0 0 30px var(--other-color);
+}
+p {
+    padding: 0;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 20px;
+}
+footer {
+    border-top: 1px solid blue;
+    text-align: center;
+}
