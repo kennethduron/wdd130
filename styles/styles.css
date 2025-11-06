@@ -67,4 +67,10 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    margin: 10px;
+    border: black solid;
+    padding: 0px;
+    background-color: white;
+    color: white;
 }
