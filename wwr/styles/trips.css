@@ -1,0 +1,144 @@
+:root {
+--primary-color:aqua ;
+--secondary-color:white ;
+--accent1-color: blue;
+--accent2-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav a {
+    text-decoration: none;
+    border: white;
+    background-color: aquamarine;
+    padding: 10px;
+    color:var(--accent1-color);
+    border: solid var(--accent2-color);
+    padding-inline: 50px;
+    float: right;
+}
+header figure {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 20px;
+    align-items: center;
+}
+main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer figure {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+}
+footer div {
+    display: flex;
+    margin-left: auto;  
+}
+
+footer div a img {
+    width: 50px;
+    height: auto;
+    display: flex;
+    padding: 5px;
+    
+}
+footer p {
+    display: flex;
+    margin: 0 auto;
+}
+#social-images {
+    position: absolute;
+}
+figure {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+main img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid yellow;
+}
+main {
+    padding: 20px;
+}
+.fix {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fix2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fix3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fix, .fix2, .fix3 {
+    padding: 15px;
+}
+.fix, .image1, .image2, .image3, p {
+    margin: 5px;
+    color: black;
+}
+main p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+main {
+    background-color: rgb(234, 243, 243);
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+h1 {
+    padding: 8px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+table {
+    padding-bottom: 8px;
+    
+}
+.table1 {
+    background-color: white;
+
+}
+section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+   
+#table {
+    background-image: url(../images/water1.webp);
+}

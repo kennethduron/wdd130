@@ -1,0 +1,162 @@
+:root {
+--primary-color:aqua ;
+--secondary-color:white ;
+--accent1-color: blue;
+--accent2-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav a {
+    text-decoration: none;
+    border: white;
+    background-color: aquamarine;
+    padding: 10px;
+    color:var(--accent1-color);
+    border: solid var(--accent2-color);
+    padding-inline: 50px;
+    float: right;
+}
+header figure {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 20px;
+    align-items: center;
+}
+main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer figure {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+}
+footer div {
+    display: flex;
+    margin-left: auto;  
+}
+
+footer div a img {
+    width: 50px;
+    height: auto;
+    display: flex;
+    padding: 5px;
+    
+}
+footer p {
+    display: flex;
+    margin: 0 auto;
+}
+#social-images {
+    position: absolute;
+}
+figure {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+fieldset {
+    border-style: none;
+}
+.form1 {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+button {
+    background-color: rgb(104, 104, 198);
+    color: white;
+    padding: 5px;
+   border-radius: 5px;
+   width: 400px;
+   font-size: 15px;
+}
+input {
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+}
+select {
+    height: 25px;
+    width: 400px;
+    border-radius: 5px;
+}
+input, select, textarea {
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+textarea {
+    height: 100px;
+    width: 400px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: brown;
+}
+iframe {
+    height: 400px;
+    width: 1519px;
+    border:0;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+.form2 {
+    display: flex;
+    justify-content: center;
+}
+main h2 {
+    background-color: white;
+    opacity: 0.5;
+    text-align: center;
+    color: black;
+}
+main p {
+    border: 1px solid white;
+    background-color: white;
+}
+.message {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.employee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.employee img {
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+    border: 1px solid yellowgreen;
+}   
+main {
+    padding: 25px;
+}
+main h2 {
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+.message p {
+    background-color: rgb(217, 234, 234);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.employee p {
+    text-align: center;
+}
+    
