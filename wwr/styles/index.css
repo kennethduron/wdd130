@@ -168,6 +168,7 @@ main {
     background-size: cover;
     position: relative;  
 }
+
 .hero article img{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/water.jpg); */
     height: 50%;
