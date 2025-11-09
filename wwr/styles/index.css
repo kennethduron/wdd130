@@ -39,12 +39,12 @@ footer figure {
     align-items: center;
     padding: 20px;    
 }
-footer div {
+footer .socialmedia {
     display: flex;
     margin-left: auto;  
 }
 
-footer div a img {
+footer .socialmedia a img {
     width: 50px;
     height: auto;
     display: flex;
