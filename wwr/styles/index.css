@@ -55,7 +55,7 @@ footer p {
     display: flex;
     margin: 0 auto;
 }
-#social-images {
+.socialmedia {
     position: absolute;
 }
 figure {
