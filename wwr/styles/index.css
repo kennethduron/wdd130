@@ -176,3 +176,7 @@ main {
     background-size: cover;
     position: relative;
 }
+
+.hero article img {
+    float: right;
+}
