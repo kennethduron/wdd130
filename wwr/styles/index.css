@@ -180,3 +180,11 @@ main {
 .hero article img {
     float: right;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+}
