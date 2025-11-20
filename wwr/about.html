@@ -2,75 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description"
-        content="Learn about our White Water Rafting company, our history, and the exciting adventures we offer.">
-    <meta name="author" content="Kenneth Duron">
-    <title>About Us - White Water Rafting</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+        content="Kenneth — professional white water rafting tours. Learn our history, meet the team, and book thrilling river adventures." />
+    <meta name="author" content="Kenneth Duron" />
+    <title>About Us - Kenneth</title>
+
+    <link rel="stylesheet" href="styles/rafting.css" />
 </head>
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="Company Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+        <div class="header-inner">
+            <img src="images/logo.jpg" alt="Kenneth company logo" class="logo" />
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
     </header>
 
     <main>
+        <!-- HERO -->
         <div class="hero">
-            <img src="images/water.jpg" alt="Rafting river">
-            <h1>White Water Rafting</h1>
+            <img src="images/water.jpg" alt="Rafting river landscape" class="hero-image" />
+            <h1>Kenneth</h1>
 
-            <article>
-                <img src="images/water2.webp" alt="Rafting adventure">
-                <p>Experience the thrill of white water rafting with our professional guides and breathtaking locations.
-                </p>
+            <article class="hero-card" aria-labelledby="hero-claim">
+                <h3 id="hero-claim">Experience Safety, Skill, and Adventure</h3>
+                <p>Join our certified guides for a safe, guided rafting journey through spectacular rivers.
+                    Family-friendly and
+                    thrill-ready trips available.</p>
+                <img src="images/water2.webp" alt="Guides leading a rafting trip" />
             </article>
         </div>
 
-        <!-- SECTION 1 -->
+        <!-- SECTION 1: History -->
         <section>
             <h2>History</h2>
             <p>
-                Our company has been guiding adventurers through the rivers for over 25 years. We are dedicated to
-                providing
-                safe and unforgettable rafting experiences for families, friends, and thrill-seekers.
+                For over two decades, Kenneth has guided paddlers through dramatic canyons and white-water rapids. Our
+                guides are
+                professionally trained, CPR/first-aid certified, and committed to providing a safe—yet
+                exciting—experience for
+                paddlers of all skill levels.
             </p>
         </section>
 
-        <!-- SECTION 2 -->
+        <!-- SECTION 2: Adventure Awaits You! (contains at least 5 figures) -->
         <section>
             <h2>Adventure Awaits You!</h2>
 
-            <div class="figures">
+            <div class="figures" aria-label="Gallery of rafting moments">
                 <figure>
-                    <img src="images/water1.webp" alt="Rafting group adventure">
+                    <img src="images/water1.webp" alt="Group of rafters cheering" />
                     <figcaption>Team Rafting</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/water2.webp" alt="River waves adventure">
-                    <figcaption>Rushing Waters</figcaption>
+                    <img src="images/water2.webp" alt="Strong river waves and rapids" />
+                    <figcaption>Rushing Rapids</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/water3.jpg" alt="Beautiful river canyon">
+                    <img src="images/water3.jpg" alt="Scenic river canyon" />
                     <figcaption>River Canyon</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/water4.jpg" alt="Rafting team paddling">
-                    <figcaption>Paddle Hard</figcaption>
+                    <img src="images/water4.jpg" alt="Rafters paddling through rapids" />
+                    <figcaption>Paddle Together</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/water5.jpg" alt="Rafting through rapids">
+                    <img src="images/water5.jpg" alt="Rafters approaching a rapid" />
                     <figcaption>Into the Rapids</figcaption>
                 </figure>
             </div>
@@ -78,17 +86,17 @@
     </main>
 
     <footer>
-        <p>© 2025 White Water Rafting — Kenneth Duron</p>
+        <p>© 2025 Kenneth — Kenneth Duron</p>
 
-        <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook logo">
+        <nav class="socialmedia" aria-label="Social media links">
+            <a href="https://facebook.com" aria-label="Kenneth on Facebook">
+                <img src="images/facebook.png" alt="Facebook logo" />
             </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.jpg" alt="Instagram logo">
+            <a href="https://instagram.com" aria-label="Kenneth on Instagram">
+                <img src="images/instagram.jpg" alt="Instagram logo" />
             </a>
-            <a href="https://youtube.com">
-                <img src="images/youtube.png" alt="YouTube logo">
+            <a href="https://youtube.com" aria-label="Kenneth on YouTube">
+                <img src="images/youtube.png" alt="YouTube logo" />
             </a>
         </nav>
     </footer>
