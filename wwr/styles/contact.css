@@ -1,34 +1,27 @@
-:root {
-  --primary-color: #055a05; /* example green */
-  --secondary-color: #f0f8ff; /* light */
-  --accent-color: #0e6ba8; /* blue-ish */
-  --text-color: #333;
-  --heading-font: "Roboto", sans-serif;
-  --body-font: "Roboto", sans-serif;
-}
+/* Contact page styles — consistent with your About page theme */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --primary-color: #b5a2f2; /* light purple (adjust to match your about page) */
+  --text-color: #333;
+  --bg-color: #f9f9fb;
+  --accent-color: #8a7fc1;
+  --button-color: #8a7fc1;
+  --button-hover: #6e63a5;
 }
 
 body {
-  font-family: var(--body-font);
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-color);
   color: var(--text-color);
-  line-height: 1.5;
 }
 
-header {
-  display: grid;
-  grid-template-columns: auto 1fr;
+.header-inner {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: var(--primary-color);
   padding: 1rem;
-}
-
-.header-figure {
-  display: contents; /* because we use grid in header */
 }
 
 .logo {
@@ -36,55 +29,62 @@ header {
   height: auto;
 }
 
-.main-nav {
-  justify-self: end;
-}
-
 .main-nav a {
-  text-decoration: none;
   margin-left: 1rem;
+  text-decoration: none;
   color: white;
   font-weight: 500;
 }
 
-.hero {
-  position: relative;
+main.contact-main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.company-info {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.hero img {
-  width: 100%;
-  height: auto;
-  display: block;
+.company-info h1 {
+  margin-bottom: 0.5rem;
 }
 
-.hero h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 5px;
-  font-size: 2rem;
-}
-
-main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.contact-section {
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
   margin-bottom: 2rem;
 }
 
-.contact-form fieldset {
-  display: grid;
-  gap: 1rem;
+.map-wrapper {
+  flex: 1 1 300px;
+  min-width: 250px;
+}
+
+.map-wrapper iframe {
+  width: 100%;
+  height: 300px;
   border: none;
+  border-radius: 5px;
+}
+
+.contact-form {
+  flex: 1 1 300px;
+  min-width: 250px;
+}
+
+.contact-form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form legend {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .contact-form label {
@@ -98,16 +98,11 @@ main {
   padding: 0.6rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-family: var(--body-font);
+  font-family: inherit;
 }
 
 .contact-form textarea {
   min-height: 120px;
-}
-
-.contact-form input[type="radio"],
-.contact-form input[type="checkbox"] {
-  margin-right: 0.5rem;
 }
 
 .checkbox-label {
@@ -118,71 +113,64 @@ main {
 
 .contact-form button {
   width: fit-content;
-  background-color: var(--accent-color);
+  background-color: var(--button-color);
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
+  border-radius: 4px;
   font-size: 1rem;
-  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .contact-form button:hover {
-  background-color: darken(var(--accent-color), 10%);
-}
-
-/* company info */
-.company-info {
-  margin-top: 2rem;
-}
-
-.company-info h3 {
-  margin-bottom: 0.5rem;
+  background-color: var(--button-hover);
 }
 
 .employees {
+  text-align: center;
+}
+
+.employee-profiles {
   display: flex;
+  justify-content: center;
   gap: 2rem;
   margin-top: 1rem;
-  justify-content: center;
 }
 
-.employees figure {
-  text-align: center;
+.employee-profiles figure {
+  margin: 0;
 }
 
-.employees img {
-  width: 150px;
+.employee-profiles img {
+  width: 120px;
   height: auto;
   border-radius: 50%;
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--accent-color);
 }
 
-.map-section iframe {
-  width: 100%;
-  height: 400px;
-  border: 0;
-  border-radius: 5px;
-}
-
-/* footer */
 footer {
   background-color: var(--primary-color);
-  color: white;
   padding: 1rem;
+  color: white;
   text-align: center;
 }
 
-.socialmedia {
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
   margin-top: 1rem;
 }
 
-.socialmedia a {
+.social-icons a {
   margin: 0 0.5rem;
 }
 
-.socialmedia img {
-  width: 40px;
+.social-icons img {
+  width: 32px;
   height: auto;
-  vertical-align: middle;
 }
