@@ -1,113 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting</title>
     <meta name="description"
-        content="Contact White Water Rafting Company — Reach out for reservations, questions, or general inquiries. We are here to help you plan your next adventure!">
+        content="Contact the White Water Rafting company for reservations, questions, or general inquiries.">
     <meta name="author" content="Kenneth Duron">
-    <title>Contact Us | White Water Rafting</title>
     <link rel="stylesheet" href="styles/contact.css">
 </head>
 
 <body>
     <header>
-        <div class="header-inner">
-            <img src="images/logo.jpg" alt="White Water Rafting Logo" class="logo">
-            <nav class="main-nav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </div>
+        <img src="images/logo.jpg" alt="Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
 
     <main class="contact-main">
+
+        <!-- COMPANY INFO -->
         <section class="company-info">
-            <h1>White Water Rafting Company</h1>
+            <h1>Contact Us</h1>
+            <p>White Water Rafting Company</p>
             <p>123 Main River Street</p>
             <p>Kolob, California</p>
             <p>+1 999 999 9999</p>
             <p><a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
         </section>
 
+        <!-- MAP + FORM -->
         <section class="contact-content">
+
+            <!-- GOOGLE MAP -->
             <div class="map-wrapper">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5340688799483!2d14.8651599705942!3d49.57937468815973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470c8e6a11c857bb%3A0x4dd155f8876c4824!2sKominictv%C3%AD%20Sm%C3%ADtko%20s.%20r.%20o.!5e0!3m2!1sen!2sus!4v1729158360366"
-                    allowfullscreen="" loading="lazy"></iframe>
+                    loading="lazy" allowfullscreen>
+                </iframe>
             </div>
 
+            <!-- CONTACT FORM -->
             <form class="contact-form">
                 <fieldset>
                     <legend>Get in Touch</legend>
 
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="text" id="name" name="name" required>
 
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    <input type="email" id="email" name="email" required>
 
                     <p>Purpose of Message:</p>
 
-                    <label for="general">
-                        <input type="radio" id="general" name="purpose" value="general" required>
-                        General Inquiry
-                    </label>
-
-                    <label for="reservation">
-                        <input type="radio" id="reservation" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
-
-                    <label for="website">
-                        <input type="radio" id="website" name="purpose" value="website">
-                        Website Suggestion
-                    </label>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
 
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                    <textarea id="message" name="message" required></textarea>
 
-                    <label class="checkbox-label" for="subscribe">
-                        <input type="checkbox" id="subscribe" name="subscribe">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="subscribe">
                         Please subscribe me to the monthly newsletter
                     </label>
 
-                    <button type="submit">Get in Touch!</button>
+                    <button type="submit">Send Message</button>
                 </fieldset>
             </form>
         </section>
 
+        <!-- EMPLOYEES -->
         <section class="employees">
-            <h2>We Are Here to Serve You</h2>
+            <h2>Meet Our Team</h2>
+
             <div class="employee-profiles">
                 <figure>
                     <img src="images/employee1.jpg" alt="Employee 1">
-                    <figcaption>Employee Profile</figcaption>
+                    <figcaption>Employee 1</figcaption>
                 </figure>
+
                 <figure>
                     <img src="images/employee2.jpg" alt="Employee 2">
-                    <figcaption>Employee Profile</figcaption>
+                    <figcaption>Employee 2</figcaption>
                 </figure>
+
                 <figure>
                     <img src="images/employee3.jpg" alt="Employee 3">
-                    <figcaption>Employee Profile</figcaption>
+                    <figcaption>Employee 3</figcaption>
                 </figure>
             </div>
         </section>
+
     </main>
 
     <footer>
-        <p>© 2025 White Water Rafting Company | Kenneth Duron</p>
+        <p>© 2025 White Water Rafting — Kenneth Duron</p>
 
         <nav class="socialmedia">
-            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/facebook.jpg" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.jpg" alt="Instagram"></a>
             <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
         </nav>
     </footer>
+
 </body>
 
 </html>

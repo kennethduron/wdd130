@@ -1,8 +1,6 @@
 /* ===========================
-   CONTACT PAGE — MATCHED STYLE
+   GLOBAL RESET
 =========================== */
-
-/* GLOBAL RESET */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +16,9 @@
     --padding: 1.2rem;
 }
 
-/* BASE */
+/* ===========================
+   BASE STYLES
+=========================== */
 body {
     font-family: Arial, sans-serif;
     max-width: var(--max-width);
@@ -26,7 +26,14 @@ body {
     background: white;
 }
 
-/* HEADER (same as your rafting.css) */
+img {
+    width: 100%;
+    display: block;
+}
+
+/* ===========================
+   HEADER
+=========================== */
 header {
     display: grid;
     grid-template-columns: 180px 1fr;
@@ -48,47 +55,45 @@ header nav {
 header nav a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--accent2-color);
     font-size: 1.2rem;
+    color: var(--accent2-color);
 }
 
 /* ===========================
-   MAIN CONTACT LAYOUT
+   CONTACT PAGE
 =========================== */
 .contact-main {
     padding: 2rem var(--padding);
 }
 
-/* Company info */
+/* Company Info */
 .company-info {
-    text-align: center;
     margin-bottom: 2rem;
 }
 
 .company-info h1 {
     color: var(--accent1-color);
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-/* ===========================
-   MAP + FORM WRAPPER
-=========================== */
+/* MAP + FORM GRID */
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    margin-bottom: 3rem;
 }
 
+/* MAP */
 .map-wrapper iframe {
     width: 100%;
-    height: 330px;
+    height: 100%;
+    min-height: 350px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
-/* ===========================
-   FORM STYLING
-=========================== */
+/* FORM */
 .contact-form fieldset {
     border: 2px solid var(--accent1-color);
     padding: 1.5rem;
@@ -96,13 +101,15 @@ header nav a {
 }
 
 .contact-form legend {
-    font-size: 1.5rem;
     font-weight: bold;
     color: var(--accent1-color);
-    padding: 0 0.5rem;
+    font-size: 1.3rem;
+    padding: 0 .5rem;
 }
 
 .contact-form label {
+    display: block;
+    margin-top: 1rem;
     font-weight: bold;
 }
 
@@ -110,64 +117,57 @@ header nav a {
 .contact-form input[type="email"],
 .contact-form textarea {
     width: 100%;
-    padding: 0.7rem;
-    margin: 0.4rem 0 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: .8rem;
+    border: 1px solid #777;
+    border-radius: 6px;
+    margin-top: .3rem;
 }
 
-.contact-form textarea {
-    min-height: 130px;
+textarea {
+    min-height: 120px;
 }
 
-/* Checkbox alignment */
 .checkbox-label {
     display: flex;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
+    gap: .5rem;
+    margin-top: 1rem;
+    font-weight: normal;
 }
 
 /* Button */
-.contact-form button {
-    margin-top: 0.5rem;
+button {
+    margin-top: 1.5rem;
+    padding: .8rem 1.5rem;
     background: var(--accent1-color);
-    color: var(--secondary-color);
+    color: white;
     border: none;
-    padding: 0.8rem 1.7rem;
-    font-size: 1.1rem;
+    border-radius: 6px;
     cursor: pointer;
-    border-radius: 5px;
+    font-size: 1rem;
 }
 
-.contact-form button:hover {
-    background: var(--accent2-color);
-    color: white;
+button:hover {
+    background: rgb(0, 0, 180);
 }
 
 /* ===========================
-   EMPLOYEE SECTION
+   EMPLOYEES
 =========================== */
-.employees {
+.employees h2 {
+    color: var(--accent1-color);
+    margin-bottom: 1rem;
     text-align: center;
-    margin-top: 3rem;
 }
 
 .employee-profiles {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-top: 1rem;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
 .employee-profiles img {
-    width: 140px;
-    border-radius: 50%;
-    border: 3px solid var(--accent1-color);
-}
-
-.employee-profiles figure {
-    text-align: center;
+    border-radius: 10px;
 }
 
 /* ===========================
@@ -177,7 +177,7 @@ footer {
     background: var(--primary-color);
     padding: var(--padding);
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 footer p {
@@ -193,13 +193,4 @@ footer p {
 
 .socialmedia img {
     width: 40px;
-}
-
-/* ===========================
-   RESPONSIVE
-=========================== */
-@media (max-width: 900px) {
-    .contact-content {
-        grid-template-columns: 1fr;
-    }
 }
