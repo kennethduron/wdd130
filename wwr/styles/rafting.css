@@ -120,6 +120,11 @@ section h2 {
     font-size: 1.8rem;
 }
 
+#section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 /* GALLERY */
 section:nth-of-type(2) {
     display: grid;
