@@ -341,3 +341,126 @@ footer p {
         font-size: 2.2rem;
     }
 }
+
+/* ===========================
+    HOME PAGE STYLES
+=========================== */
+
+/* HERO */
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: white;
+    max-width: 450px;
+    text-shadow: 2px 2px 8px black;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: var(--accent1-color);
+    color: white;
+    padding: .9rem 1.6rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .2s ease;
+}
+
+.cta-btn:hover {
+    background: #003377;
+}
+
+/* WHY CHOOSE US */
+.why-us {
+    padding: 3rem var(--padding);
+    text-align: center;
+}
+
+.why-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* POPULAR TRIPS */
+.featured-trips {
+    padding: 3rem var(--padding);
+    text-align: center;
+}
+
+.trip-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.trip-btn-wrapper {
+    margin-top: 2rem;
+}
+
+.cta-secondary {
+    background: var(--primary-color);
+    padding: .8rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.cta-secondary:hover {
+    background: #0096cc;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    background: #f4f9ff;
+    padding: 3rem var(--padding);
+    text-align: center;
+}
+
+.newsletter-form {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.newsletter-form input {
+    width: 250px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .why-grid,
+    .trip-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h1 {
+        font-size: 2.3rem;
+    }
+}
+

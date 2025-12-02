@@ -1,84 +1,114 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=" Home White Water Rafting">
+    <title>White Water Rafting – Home</title>
+
+    <meta name="description"
+        content="Experience the thrill of white water rafting with our expert guides. Adventure awaits!">
     <meta name="author" content="Kenneth Duron">
-    <title>Home White Water Rafting</title>
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
+
 <body>
+
     <header>
-        <figure>
-            <img src="images/Logo.jpg" alt="Logo">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </figure>
+        <img src="images/logo.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
-<main>
-    <form>
-        <div class="hero">
-            <div class="section1">
-                <div class="title1">
-                    <h1>Live the magic of Prague differently</h1>
-                </div>
-                <div class="title2">
-                    <p>When you have already seen the legendary Prague Castle and Charles Bridge — what will you do next?</p>
-                </div>
-                <div class="button1">
-                    <button type="submit">Let's get it</button>
-                </div>
-            </div> 
-        </div>
-    </form>
-</main>
-    <section>
-        <div class="first-section">
-            <img src="images/Logo.jpg" alt="Logo">
-            <img src="images/water.jpg" alt="water1">
-            <img src="images/water1.webp" alt="water2">
-        </div>
-        <div class="second-section">
-            <img src="images/water2.webp" alt="water3">
-            <img src="images/water3.jpg" alt="water4">
-            <img src="images/water4.jpg" alt="water5">
-        </div>
-    </section>
-    <div id="form1" style="background-image: url(./images/water3.jpg);">
-    <div class="form1">
-    <div class="form3">
-        <form>
-            <fieldset>
-                <label for="name">Name:</label><br>
-                <input type="name" id="name" name="name"><br><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-            </fieldset><br>
-            <div class="button2">
-                <button type="submit">Submit</button>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="home-hero">
+            <img src="images/water-hero.jpg" alt="Rafting hero image">
+            <div class="hero-text">
+                <h1>Experience the Adventure</h1>
+                <p>Join us for unforgettable river experiences guided by the best professionals.</p>
+                <a href="trips.html" class="cta-btn">Book Your Adventure</a>
             </div>
-        </form>    
-    </div>
-    </div>
-    </div>
-        <footer>
-            <figure>
-                <p>© 2024 All-Outdoors California Whitewater Rafting. All Rights Reserved.</p>
-                <a href="https://app.moqups.com/a8AFKwODyydBvxmpTFlsw2Egu0ahBEXg/view/page/a49b09a2b">Wireframe</a>
-                <div id="social-images">
-                    <a href="https://es-es.facebook.com/"><img src="images/facebook.91f8693c-c75b-4050-a796-63e1314d18c9" alt="facebook"></a>  
-                    <a href="https://www.instagram.com/"><img src="images/Instagram.jpg" alt="Instagram"></a> 
-                    <a href="https://www.youtube.com/"><img src="images/Youtube.png" alt="Youtube"></a> 
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="why-us">
+            <h2>Why Choose Us?</h2>
+
+            <div class="why-grid">
+                <div>
+                    <h3>✨ Professional Guides</h3>
+                    <p>Our certified team ensures your safety and makes every trip unforgettable.</p>
                 </div>
-            </figure>
-        </footer>
+
+                <div>
+                    <h3>🌄 Stunning Locations</h3>
+                    <p>Explore breathtaking rivers, canyons, and landscapes.</p>
+                </div>
+
+                <div>
+                    <h3>🚣 Perfect for Everyone</h3>
+                    <p>Whether you’re a beginner or a pro — we have the perfect adventure for you.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- POPULAR TRIPS -->
+        <section class="featured-trips">
+            <h2>Popular Trips</h2>
+
+            <div class="trip-grid">
+                <figure>
+                    <img src="images/water2.webp" alt="Beginner rafting trip">
+                    <figcaption>Beginner Rapid Run</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/water3.jpg" alt="Intermediate rafting trip">
+                    <figcaption>Intermediate Canyon Tour</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/water4.jpg" alt="Advanced rafting trip">
+                    <figcaption>Advanced White Water Thrill</figcaption>
+                </figure>
+            </div>
+
+            <div class="trip-btn-wrapper">
+                <a href="trips.html" class="cta-secondary">See All Trips</a>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <h2>Join Our Newsletter</h2>
+            <p>Get updates on new tours, safety tips, and exclusive discounts.</p>
+
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email…" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 White Water Rafting — Kenneth Duron</p>
+        <p><a href="site-plan-rafting.html">View Site Plan</a></p>
+
+        <nav class="socialmedia">
+            <a href="#"><img src="images/facebook.jpg" alt="Facebook icon"></a>
+            <a href="#"><img src="images/instagram.jpg" alt="Instagram icon"></a>
+            <a href="#"><img src="images/youtube.png" alt="YouTube icon"></a>
+        </nav>
+    </footer>
+
 </body>
+
 </html>
