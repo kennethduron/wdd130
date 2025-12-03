@@ -531,6 +531,11 @@ footer p {
     font-size: .95rem;
 }
 
+.trip-card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 .trip-cta {
     display: inline-block;
     background: var(--primary-color);
